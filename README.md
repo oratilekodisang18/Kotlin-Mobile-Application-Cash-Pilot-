@@ -1,71 +1,30 @@
-# Watch Our Demonstration Video:
-# https://www.youtube.com/watch?v=xFaQ9WY2_Z0
+# ✈️ Cash Pilot – Kotlin Budgeting App
 
-# Budget Tracker Android App
+## Demo Video: https://www.youtube.com/watch?v=xFaQ9WY2_Z0
 
-## 🔐 User Authentication
+Cash Pilot is an Android budgeting app built in Kotlin. Users can track expenses, set monthly budget goals, and engage with gamified features to encourage better financial habits.
 
-- The user must be able to **log in** to the app using a **username and password**.
-- ### Login and Welcome Page
-  - Features a **blue Sign Up Material CardView** containing a TextView.
-  - Includes a **white Login button** styled similarly.
-- ### Register Page
-  - Allows users to **register and store credentials**.
-  - User data is passed to the login page.
-  - Also contains a **blue Sign Up CardView** with a TextView.
+### Tech Stack
+- Kotlin, Android Studio, Gradle
+- Material Design Components
+- Offline storage: SQLite / RoomDB
+- 
+### Key Features
+- User Authentication: Registration, login, and welcome page
+- Budget Goals: Set and save minimum/maximum monthly spending goals
+- Category Spending: View total spent per category over a selected period
+- Gamification: Plane selection with points awarded
+- UI Improvements: Updated layouts to match original design
 
-## 🎯 Add Budget Goal Page
+### My Contributions
+- Implemented gamification feature (plane selection + points)
+- Built budget goals page
+- Developed welcome and registration pages
+- Displayed category-based spending summaries
+- Fixed UI inconsistencies across screens
 
-- Users can:
-  - Set a **minimum monthly goal** for spending.
-  - Set a **maximum monthly goal** for spending.
+### Offline Storage
+All data is stored locally using SQLite / RoomDB, allowing offline use.
 
-## 📊 Categories Page
-
-- View total amount of money spent per category over a **user-selectable time period**.
-- Stores **history of expenses, budgets, and savings**.
-- Includes:
-  - **Drop-down (spinner)** for selecting the month.
-  - **Bottom Navigation Bar** with:
-    - Home
-    - Categories
-    - Charts
-    - Profile
-
-## ➕ Add Category Page
-
-- Create new **categories** for expenses and budgets.
-- Create **expense entries** with:
-  - Date
-  - Start and end times
-  - Description
-  - Category
-- Optionally **add a photograph** to an expense entry.
-
-## 👤 Profile Page
-
-- View **all expense entries** for a user-selectable period.
-- If a **photo was attached** to an entry, users can view it.
-- Includes the same **bottom navigation items**:
-  - Home
-  - Categories
-  - Charts
-  - Profile
-
-## 🚀 First Git Push
-
-- Initial commit includes:
-  - Login/Register logic
-  - Budget and category management
-  - SQLite or RoomDB offline storage
-  - UI layout with Material Design components
-
-## 💾 Offline Data Storage
-
-- All app data is saved locally using:
-  - **SQLite**
-  - **RoomDB**
-  - or similar Android **offline database platforms**
-
-
-Would you like me to help create icons, mockups, or diagrams for this app as well?
+### AI Use
+AI assisted with boilerplate code; all features were reviewed and customized manually.
