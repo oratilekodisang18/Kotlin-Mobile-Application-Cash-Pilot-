@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ChartsFragment">
+
+    <TextView
+        android:id="@+id/placeholderText"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You will only enjoy this feature in Part 3 due to requirements."
+        android:textColor="@color/primary_colour"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+</FrameLayout>

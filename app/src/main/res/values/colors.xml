@@ -1,0 +1,55 @@
+<resources>
+    <color name="navy_blue">#25418B</color>
+    <color name="dark_text">#1A1A1A</color>
+    <color name="primary_blue">#1748A6</color>
+    <color name="expense_red">#970000</color>
+    <color name="background_light">#E8ECF5</color>
+    <color name="input_border">#7486A6</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Denzel -->
+    <!-- Bottom Navigation Colours -->
+    <color name="bottom_navigation_background">#154297</color>
+    <color name="not_active_button">#154297</color>
+
+    <!-- Home Page Colours -->
+    <color name="primary_colour">#154297</color>
+    <color name="faded_blue">#729EE3</color>
+    <color name="green">#00974E</color>
+    <color name="red">#7D0202</color>
+    <color name="grey">#808080</color>
+    <color name="rectangle_colour">#3872CE</color>
+
+    <!-- Welcome Page Colours -->
+    <color name="light_grey">#F7F7F7</color>
+    <color name="lightest_grey">#E5E5E5</color>
+
+
+    <!-- Bassie -->
+    <color name="primary_blue2">#2545B4</color>
+    <color name="secondary_blue">#3C5CDD</color>
+    <color name="blue_light">#8BA3F7</color>
+
+    <color name="entertainment_color">#FFA726</color>
+    <color name="utilities_color">#4CAF50</color>
+    <color name="over_budget_color">#B71C1C</color>
+    <color name="over_budget_text">#8B0000</color>
+
+    <color name="black">#FF000000</color>
+    <color name="grey2">#F2F2F2</color>
+    <color name="text_grey">#757575</color>
+    <color name="heading_grey">#808080</color>
+
+    <!-- Ora -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+
+
+</resources>

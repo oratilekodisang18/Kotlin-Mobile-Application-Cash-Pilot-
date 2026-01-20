@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Extra space at top -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="48dp">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:text="&#10094;"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:contentDescription="@string/back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="@string/add_category"
+            android:textColor="@color/dark_text"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgCalculator"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_dialog_dialer"
+            android:contentDescription="@string/calculator_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Extra space before Name -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <!-- Category Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/dark_text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/dark_text"
+        android:padding="12dp"
+        android:background="@drawable/blue_border_background"
+        android:layout_marginBottom="30dp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <!-- Expense/Income Toggle -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExpense"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:text="@string/expense"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            app:backgroundTint="@color/expense_red"
+            android:layout_marginEnd="4dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnIncome"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:text="@string/income"
+            android:textColor="#8F92A1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            app:backgroundTint="#EFF0F6"
+            app:strokeColor="@color/input_border"
+            app:strokeWidth="3dp"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+
+    <!-- Monthly Limit -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/monthly_limit_optional"
+        android:textColor="@color/dark_text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etMonthlyLimit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/blue_border_background"
+        android:hint="R"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        android:paddingStart="16dp"
+        android:paddingEnd="70dp"
+        android:textColor="@color/dark_text"
+        android:textColorHint="#666666"
+        android:layout_marginBottom="110dp"
+        android:importantForAutofill="no" />
+
+    <!-- Create Category Button -->
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-160dp"
+        android:layout_marginRight="10dp"
+        android:background="#BBBDCA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="+ -\n× ="
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCreateCategory"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/create_category"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/primary_blue"
+        app:cornerRadius="8dp" />
+</LinearLayout>

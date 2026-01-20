@@ -1,0 +1,57 @@
+<resources>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="back">Back</string>
+    <string name="calendar">Calendar</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="reset_date">Reset Date</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="amount">Amount (R)</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="choose_category">Choose a category</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="create">Create</string>
+    <string name="photo_preview">Photo Preview</string>
+    <string name="app_name">Budget Tracker</string>
+    <string name="pick_photo">Pick Photo</string>
+    <string name="create_transaction">Create Transaction</string>
+    <string name="add_category">Add Category</string>
+    <string name="calculator_icon">Calculator Icon</string>
+    <string name="monthly_limit_optional">Monthly Limit (Optional)</string>
+    <string name="create_category">Create Category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="title_activity_expense_detail">Leanback ExpenseDetail</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+</resources>
